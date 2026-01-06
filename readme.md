@@ -28,5 +28,5 @@ Inoltre esistono anche le costanti, che a differenza delle variabili hanno un va
 ### Undefined e null sono la stessa cosa?
 
 Undefined e null non sono la stessa cosa. Al momento della dichiarazione di una variabile, se non la inizializiamo, all'interno di essa non solo non troveremo alcun dato memorizzato, ma la macchina non saprà neanche che tipo di dato o oggetto si tratti.  
-Null invece indica che all'interno della variabile non vi è alcun dato memorizzato, ma la macchina sa il tipo di dato con cui stiamo lavorando. Il null non equivale dallo 0, poichè anche lo 0 è un dato, mentre null non lo è.  
+Null invece indica che all'interno della variabile non vi è alcun dato memorizzato, ma la macchina sa il tipo di dato con cui stiamo lavorando. Il null non equivale allo 0, poichè anche lo 0 è un dato, mentre null non lo è.  
 Inoltre è possibili assegnare null ad una variabile per 'ripulirla', nel caso in cui vogliamo evitare di incorrere in eventuali errori. Mentre undefined non è possibile assegnarlo
