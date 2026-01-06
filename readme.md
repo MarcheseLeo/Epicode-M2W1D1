@@ -22,3 +22,11 @@ Una variabile è una sorta di contentiore il cui scopo è immagazzinare un dato.
 La fase di inizializzazione è importante per "avvisare" la macchina che tipo di dato debba immagazzinare, dato che al momento della dichiarazione della variabile, essa è **undefined**. Nei linguaggi di programmazione vi sono diversi tipi di dati con cui si puo' lavorare: Integer, Double, Float, Char, Stringhe, Boolean... Ognuno di essi occupa una quantità di byte differenti in memoria. Inizializzare la variabile serve alla macchina per capire quanto spazio allocare in memoria.  
 Inoltre esistono anche le costanti, che a differenza delle variabili hanno un valore fisso che non potra piu essere cambiato tramite assegnazione, a differenza delle variabili, il cui valore puo cambiare nel corso del codice. Per questo motivo per le costanti è obbligatorio inizializzare la costante nel momento della sua dichiarazione.
 
+#
+
+
+###Undefined e null sono la stessa cosa?
+
+Undefined e null non sono la stessa cosa. Al momento della dichiarazione di una variabile, se non la inizializiamo, all'interno di essa non solo non troveremo alcun dato memorizzato, ma la macchina non saprà neanche che tipo di dato o oggetto si tratti.  
+Null invece indica che all'interno della variabile non vi è alcun dato memorizzato, ma la macchina sa il tipo di dato con cui stiamo lavorando. Il null non equivale dallo 0, poichè anche lo 0 è un dato, mentre null non lo è.  
+Inoltre è possibili assegnare null ad una variabile per 'ripulirla', nel caso in cui vogliamo evitare di incorrere in eventuali errori. Mentre undefined non è possibile assegnarlo
